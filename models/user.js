@@ -1,3 +1,11 @@
+/*
+
+Model folder should contain all direct database access and manipulation
+Model files should not include request, response, or view objects
+Model files must be created independent of each other. Deleting one model file will not affect the others
+
+*/
+
 const mongoose = require("mongoose")
 const crypto = require("crypto")
 

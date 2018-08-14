@@ -1,3 +1,11 @@
+/*
+
+app.js file does all the set-up
+app.js passes the routing to the controllers folder
+app.js starts the server
+
+*/
+
 const express = require("express")
 const bodyparser = require("body-parser")
 const hbs = require("hbs")
